@@ -3,7 +3,7 @@
     "path": "C:/Users/ncwbsoh/OneDrive-Deere&Co/OneDrive - Deere & Co/Desktop/RProjects/EDA/EDA-Assignment-Week1/plot1.R",
     "project_path": "plot1.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1774167920",
     "contents": "",
     "dirty": false,
     "created": 1642532558916.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "4,7",
+        "cursorPosition": "4,108",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1642536970,
+    "lastKnownWriteTime": 1642537801,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1642536970044,
+    "last_content_update": 1642537801446,
     "read_only": false,
     "read_only_alternatives": []
 }

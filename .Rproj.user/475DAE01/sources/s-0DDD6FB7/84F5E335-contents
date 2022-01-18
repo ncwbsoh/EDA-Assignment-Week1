@@ -5,8 +5,8 @@ Data$Date = as.Date(Data$Date, "%d/%m/%Y")
 Data = (subset(Data, Date >= as.Date("01/02/2007", "%d/%m/%Y") & Date <= as.Date("02/02/2007", "%d/%m/%Y")))
 
 #Actual Plotting
-hist(Data$Global_active_power, col = "red", xlab = "Global Active Power (kilowatts)", main = "Global Active Power")
+plot(Data$Time, Data$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
 
 #Creating the png
-dev.copy(png, file = "plot1.png")
+dev.copy(png, file = "plot2.png")
 dev.off()
