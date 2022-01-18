@@ -1,7 +1,7 @@
 # EDA-Assignment-Week1  
 
 Here's all the plots and the scripts that made them in one place.  
-Note that each script start with:
+Note that each script starts with:
 
     Data = read.table("household_power_consumption.txt", header = TRUE, sep = ";", colClasses = c("character", "character", "double", "double", "double", "double", "double", "double", "double"), na.strings = "?")
     Data$Time = strptime(paste(Data$Date, Data$Time), "%d/%m/%Y %H:%M:%S")
